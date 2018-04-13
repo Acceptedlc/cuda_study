@@ -9,6 +9,7 @@
 #include <helper_cuda.h>
 
 int main(int argc, char **argv) {
-	cublasHandle_t handle;
-	status = cublasCreate(&handle);
+        cublasStatus_t status;
+        cublasHandle_t handle;
+        status = cublasCreate(&handle);
 }
