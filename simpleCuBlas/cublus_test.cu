@@ -6,7 +6,6 @@
 /* Includes, cuda */
 #include <cuda_runtime.h>
 #include <cublas_v2.h>
-#include <helper_cuda.h>
 
 int main(int argc, char **argv) {
         cublasStatus_t status;
